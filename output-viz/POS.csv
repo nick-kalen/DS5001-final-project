@@ -1,0 +1,46 @@
+pos_code,pos_def,n,pos_group,punc
+$,dollar,0,$,True
+'',closing quotation mark,0,'',True
+(,opening parenthesis,0,(,True
+),closing parenthesis,0,),True
+",",comma,0,",",True
+--,dash,0,--,True
+.,sentence terminator,0,.,True
+:,colon or ellipsis,0,:,True
+CC,"conjunction, coordinating",35797,CC,False
+CD,"numeral, cardinal",5309,CD,False
+DT,determiner,91895,DT,False
+EX,existential there,2813,EX,False
+FW,foreign word,128,FW,False
+IN,"preposition or conjunction, subordinating",120095,IN,False
+JJ,"adjective or numeral, ordinal",62003,JJ,False
+JJR,"adjective, comparative",2568,JJ,False
+JJS,"adjective, superlative",1562,JJ,False
+LS,list item marker,0,LS,False
+MD,modal auxiliary,11319,MD,False
+NN,"noun, common, singular or mass",147553,NN,False
+NNP,"noun, proper, singular",110231,NN,False
+NNPS,"noun, proper, plural",278,NN,False
+NNS,"noun, common, plural",35707,NN,False
+PDT,pre-determiner,1145,PD,False
+POS,genitive marker,66,PO,False
+PRP,"pronoun, personal",99162,PR,False
+PRP$,"pronoun, possessive",26710,PR,False
+RB,adverb,70886,RB,False
+RBR,"adverb, comparative",1647,RB,False
+RBS,"adverb, superlative",328,RB,False
+RP,particle,9450,RP,False
+SYM,symbol,1,SY,False
+TO,"""to"" as preposition or infinitive marker",26834,TO,False
+UH,interjection,1235,UH,False
+VB,"verb, base form",39425,VB,False
+VBD,"verb, past tense",107720,VB,False
+VBG,"verb, present participle or gerund",33987,VB,False
+VBN,"verb, past participle",23817,VB,False
+VBP,"verb, present tense, not 3rd person singular",20239,VB,False
+VBZ,"verb, present tense, 3rd person singular",10143,VB,False
+WDT,WH-determiner,3371,WD,False
+WP,WH-pronoun,8061,WP,False
+WP$,"WH-pronoun, possessive",212,WP,False
+WRB,Wh-adverb,6570,WR,False
+``,opening quotation mark,0,``,True
