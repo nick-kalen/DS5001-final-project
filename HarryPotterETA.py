@@ -478,7 +478,6 @@ def search_potter(concept, top_k, corpus_embeddings, CORPUS_by_para, books = [1,
     
     # Get book indexes and filter corpus embeddings by book
     book_indexes = list(np.concatenate(([CORPUS_by_para[CORPUS_by_para['book_id'] == i].index for i in books])))
-    print(min(book_indexes), max(book_indexes))
     
     corpus_embeddings_subset = corpus_embeddings[book_indexes]
     CORPUS_by_para_subset = CORPUS_by_para.iloc[book_indexes]
@@ -491,7 +490,6 @@ def search_potter(concept, top_k, corpus_embeddings, CORPUS_by_para, books = [1,
     
     # Get row indexes of the top k hits
     potter_hit_indexes = [x['corpus_id'] for x in potter_search_hits]
-    print(potter_hit_indexes)
     
     return pprint.pprint([{"Book Number: " + str(CORPUS_by_para_subset.iloc[x]["book_id"]) + 
              ", Chapter Number: " + 
