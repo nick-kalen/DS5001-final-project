@@ -4,7 +4,7 @@ DS 5001 Final Project on Harry Potter Books
 This repository includes the following files:
 - **data_model.ipynb**: this file contains the definitions of each table produced (and contained within the 'output' and 'output-viz' directories) along with definitions of each feature in each table. The file is linked in the final report.
 - **exploratory_analysis.ipynb**: this file contains all work done to produce the tables needed for analysis
-- **FINAL_REPORT.html**: this file is the HTML version of FINAL_REPORT.ipynb. It is included to provide a readable version of the final report so that the report itself could be edited in future work without losing a record of this project.
+- **FINAL_REPORT.ipynb**: this file is the Jupyter Notebook version of the final report.
 - **HarryPotterETA.py**: this file includes methods used to perform the exploratory analysis.
 - **visualization.ipynb**: this file contains work done to produce many of the visualizations used in the final report.
 
