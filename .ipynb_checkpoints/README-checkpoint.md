@@ -13,3 +13,5 @@ This repository also contains the following directories:
 - **images**: this directory is where all images embedded in the final report are stored.
 - **output**: this directory contains all CSV files listed as deliverables in the requirement for this project.
 - **output-viz**: this directory contains all generated CSV files not listed as deliverables, but necessary to produce desired visualizations.
+
+To export the FINAL_REPORT.ipynb file to HTML without losing images, run the following terminal command: `jupyter nbconvert FINAL_REPORT.ipynb --no-input --to html`
